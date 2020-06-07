@@ -1,0 +1,47 @@
+Dotnet cli to use for run and build and create projects
+
+EF Core dlls need to install:
+-------------------------------------------------
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Sqlite
+Microsoft.EntityFrameworkCore.Design
+
+
+Pallete shortcut 
+-------------------
+ctrl+shift+p
+
+
+EF tools package
+------------------------
+in the terminal 
+
+PS:dotnet tool install --global dotnet-ef
+
+EF Commands:
+-------------
+
+dotnet ef -h --------help generic
+
+dotnet ef migrations -h --------migration commands help
+
+
+dotnet ef migrations add initialmigration ---create a tables or something from dbcontext 
+
+
+dotnet ef database update ---reflect database change
+
+Code shortcuts:
+------------------------
+Shift+Alt+F =====Ctrl k d
+
+
+run 
+--------------------------
+dotnet watch run
+
+
+
+
+ 
